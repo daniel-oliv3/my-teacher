@@ -29,13 +29,31 @@ main {
     padding-bottom: 8rem;
 }
 
+.teacher-container {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: center;
+}
 
+.teacher-img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
 
+.teacher-name {
+    font-weight: 900;
+}
 
+.teacher-price {
+    font-weight: 700;
+    color: #f52273;
+}
 
-
-
-
+.teacher-description {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 
 
