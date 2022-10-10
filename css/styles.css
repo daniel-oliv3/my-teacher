@@ -30,7 +30,8 @@ main {
 }
 
 .teacher-container {
-    width: 450px;
+    max-width: 450px;
+    padding: 10px;
     margin: 0 auto;
     margin-bottom: 5rem;
     text-align: center;
@@ -84,7 +85,7 @@ main {
 }
 
 
-
+/* ======= Responsive/Responsividade ======= */
 
 
 
