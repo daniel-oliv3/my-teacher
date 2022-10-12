@@ -87,11 +87,11 @@ console.log(aluno.contato.email);
 console.log(aluno.contato.telefone);
 
 
+/* ======= DOM ======= */
+let elemento = document.getElementById("main-container"); //<main id="main-container"></main>
+console.log(elemento);
 
-
-
-
-
+elemento.innerHTML = "Alterando via JS";
 
 
 
