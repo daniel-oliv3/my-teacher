@@ -1,9 +1,9 @@
 ```js
-/* ======= JavaScript basic ======= */
+/* ================= JavaScript basic ================= */
 //Comando exibe informações no console
 console.log("Olá, Mundo!");
 
-// ======= Variaveis e tipos de dados =======
+/* ======= Variaveis e tipos de dados ======= */
 /* String */
 let nome = "Daniel Oliveira";
 console.log(nome);
@@ -16,7 +16,7 @@ console.log(idade);
 let ehprogramador = true;
 console.log(ehprogramador);
 
-// ======= Operadores matematicos =======
+/* ======= Operadores matematicos ======= */
 let num1 = 10;
 let num2 = 5;
 
@@ -59,7 +59,26 @@ for(let i = 0; i < 7; i++){
     console.log(numeros[i]);
 }
 
+/* ======= Objetos javascript ======= */
+let aluno = {
+    nome: "Daniel Oliveira",
+    idade: 35,
+    notas: [10, 8.9, 7.3, 8.5],
+    contato: { 
+        telefone: "(55)92-99131-5030",
+        email: "danieloliveira.webmaster@gmail.com"
+    }
+}
 
+console.log(aluno);
+console.log(aluno.nome);
+console.log(aluno.idade);
+console.log(aluno.contato);
+console.log(aluno.contato.email);
+console.log(aluno.contato.telefone);
+
+
+/* ================= JavaScript basic ================= */
 ```
 
 

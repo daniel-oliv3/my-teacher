@@ -80,10 +80,11 @@ let aluno = {
 }
 
 console.log(aluno);
-
-
-
-
+console.log(aluno.nome);
+console.log(aluno.idade);
+console.log(aluno.contato);
+console.log(aluno.contato.email);
+console.log(aluno.contato.telefone);
 
 
 
