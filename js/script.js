@@ -40,7 +40,7 @@ console.log("Modulo/Resto da divisão");
 console.log(num1 % num2);
 
 /* ======= Arrays ======= */
-let notas = [10, 7.3, 5, 3];
+let notas = [10, 8.9, 7.3, 8.5];
 console.log(notas);
 console.log(notas[0]);
 console.log(notas[2]);
@@ -53,7 +53,45 @@ console.log(notas);
 
 
 /* ======= Laços de repetição ======= */
+// For
 let numeros = [1,2,3,4,5,6,7];
 for(let i = 0; i < 7; i++){
     console.log(numeros[i]);
 }
+
+console.log("Terminou o for");
+
+// For of
+for(let nota of notas){
+    console.log(nota);
+}
+
+console.log("Terminou o for of");
+
+/* ======= Objetos javascript ======= */
+let aluno = {
+    nome: "Daniel Oliveira",
+    idade: 35,
+    notas: [10, 8.9, 7.3, 8.5],
+    contato: { 
+        telefone: "(55)92-99131-5030",
+        email: "danieloliveira.webmaster@gmail.com"
+    }
+}
+
+console.log(aluno);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

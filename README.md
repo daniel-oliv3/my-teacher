@@ -74,10 +74,3 @@ for(let i = 0; i < 7; i++){
 
 
 
-
-/**
-    Autor: Daniel Oliveira
-    Email: danieloliveira.webmaster@gmail.com
-    Manaus/Amazonas
-    11/10/2022
- **/
