@@ -11,7 +11,8 @@ for(let teacherForm of teacherForms){
 
         let total = price * hours;
 
-        console.log(total);
+        //console.log(total);
+        alert("O valor total do contrato é de R$ " + total);
     });
 }
 
